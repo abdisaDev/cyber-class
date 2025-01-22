@@ -27,7 +27,7 @@ def process_keys(filename):
             if is_valid:
                 print(f"Found matching key: {key.hex()}")
                 print(f"Ciphertext: {ciphertext.hex()}")
-                print(f"IV: {iv.hex()}")
+                print(f"Inital Vector: {iv.hex()}")
                 print(f"Plaintext: {plaintext.hex()}")
                 break
     else:
